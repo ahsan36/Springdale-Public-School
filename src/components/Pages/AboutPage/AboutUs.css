@@ -1,0 +1,64 @@
+/* About Us page styles */
+
+.about-us-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #004aad;
+    color: #fff;
+  }
+  
+  .about-section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .about-section h2 {
+    margin-bottom: 20px;
+    color: #004aad;
+  }
+  
+  .about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .principal-message {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .principal-message .principal-img {
+    flex: 1;
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .principal-message p {
+    flex: 3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  ul li::before {
+    content: '•';
+    color: #004aad;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: -2px;
+  }
+  

@@ -1,0 +1,79 @@
+/* Students page styles */
+
+.students-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #004aad;
+    color: #fff;
+  }
+  
+  .activities-section, .achievements-section, .student-council-section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .activities-section h2, .achievements-section h2, .student-council-section h2 {
+    margin-bottom: 20px;
+    color: #004aad;
+    text-align: center;
+  }
+  
+  .activities-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .activity-item {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .activity-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .achievements-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .achievement-item {
+    font-size: 1.1em;
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .achievement-item::before {
+    content: '•';
+    color: #004aad;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: -2px;
+  }
+  
+  .council-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .council-member {
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

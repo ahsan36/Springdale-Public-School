@@ -1,0 +1,62 @@
+/* Admissions page styles */
+
+.admissions-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #004aad;
+    color: #fff;
+  }
+  
+  .admissions-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .admissions-header p {
+    font-size: 1.2em;
+  }
+  
+  .admissions-process, .admissions-criteria, .important-dates, .contact-info {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .admissions-process h2, .admissions-criteria h2, .important-dates h2, .contact-info h2 {
+    color: #004aad;
+    margin-bottom: 20px;
+  }
+  
+  .admissions-process p, .admissions-criteria p, .important-dates p, .contact-info p {
+    font-size: 1.1em;
+  }
+  
+  .admissions-process ol, .admissions-criteria ul, .important-dates ul {
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+  
+  .admissions-process li, .admissions-criteria li, .important-dates li {
+    margin-bottom: 10px;
+  }
+  
+  .download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #004aad;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .download-button:hover {
+    background-color: #003580;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  

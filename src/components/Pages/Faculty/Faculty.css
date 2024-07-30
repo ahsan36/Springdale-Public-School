@@ -1,0 +1,55 @@
+/* Faculty page styles */
+
+.faculty-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #004aad;
+    color: #fff;
+  }
+  
+  .faculty-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .faculty-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .faculty-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .faculty-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #004aad;
+  }
+  
+  .faculty-info {
+    padding: 20px;
+  }
+  
+  .faculty-info h3 {
+    margin: 10px 0;
+    color: #004aad;
+  }
+  
+  .faculty-info p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  
+  .faculty-info em {
+    color: #888;
+  }
+  

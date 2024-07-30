@@ -1,0 +1,75 @@
+/* Academics page styles */
+
+.academics-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #004aad;
+    color: #fff;
+  }
+  
+  .academics-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .academics-header p {
+    font-size: 1.2em;
+  }
+  
+  .curriculum-section, .methodologies-section, .resources-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .curriculum-section h2, .methodologies-section h2, .resources-section h2 {
+    color: #004aad;
+    margin-bottom: 20px;
+  }
+  
+  .curriculum-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .curriculum-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .curriculum-item h3 {
+    color: #004aad;
+    margin-bottom: 10px;
+  }
+  
+  .curriculum-item h4 {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .curriculum-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .curriculum-item li {
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+  
+  .methodologies-section, .resources-section {
+    text-align: center;
+  }
+  
+  .methodologies-section p, .resources-section p {
+    font-size: 1.1em;
+    margin: 20px 0;
+  }
+  
